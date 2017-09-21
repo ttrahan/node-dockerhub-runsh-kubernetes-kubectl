@@ -11,7 +11,6 @@ jobs:
     steps:
       - IN: shipdemo-repo
         switch: off
-      - IN: shipdemo-int-aws
       - IN: shipdemo-int-kube
       - IN: shipdemo-img
       - IN: shipdemo-params-test 
@@ -30,7 +29,6 @@ jobs:
         switch: off
       - IN: shipdemo-repo
         switch: off
-      - IN: shipdemo-int-aws
       - IN: shipdemo-int-kube
       - IN: shipdemo-params-prod
       - TASK:
