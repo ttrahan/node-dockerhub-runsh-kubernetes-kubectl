@@ -11,13 +11,6 @@ resources:
     flags:
       - runSh-kubernetes-kubectl
 
-# Integration to that stores AWS credentials
-  - name: shipdemo-int-aws
-    type: integration
-    integration: ttrahan-aws # replace with your AWS integration name
-    flags:
-      - runSh-kubernetes-kubectl
-
 ################################
 # Sample Node Aye-Aye component
 
